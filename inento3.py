@@ -9,7 +9,7 @@ import streamlit as st
 import pydeck as pdk
 
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
-st.set_page_config(layout="wide", page_title="SF Ridesharing Demo", page_icon=":oncoming_police_car:")
+st.set_page_config(layout="wide", page_title="SF Incidents Dashboard", page_icon=":oncoming_police_car:")
 
 # LOAD DATA ONCE
 @st.cache_resource
