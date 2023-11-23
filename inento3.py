@@ -14,9 +14,9 @@ st.set_page_config(layout="wide", page_title="SF Ridesharing Demo", page_icon=":
 # LOAD DATA ONCE
 @st.cache_resource
 def load_data():
-    path = "Police_Department_Incident_Reports__2018_to_Present.csv"
+    path = "Police_Department_Incident_Reports__2018_to_Present.csv.zip"
     if not os.path.isfile(path):
-        path = f"/Users/mivalenciap/Desktop/{path}"
+        path = f"https://github.com/marisa-valencia/DataAnalysisAdanClass/blob/main//{path}"
 
     data = pd.read_csv(
         path,
